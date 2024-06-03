@@ -75,7 +75,7 @@ LobeChat is an open-source, extensible ([Function Calling][fc-url]), high-perfor
 
 </details>
 
-Copyright © 2023 [LobeHub][profile-url]. <br />
+Copyright © 2023 [AnalogChat][profile-url]. <br />
 This project is [MIT][license-url] licensed.
 
 <!-- LINK GROUP -->
