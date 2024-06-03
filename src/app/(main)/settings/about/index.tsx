@@ -14,7 +14,7 @@ import { serverConfigSelectors } from '@/store/serverConfig/selectors';
 import AboutList from './features/AboutList';
 import Analytics from './features/Analytics';
 
-const COPYRIGHT = `© 2023-${new Date().getFullYear()} AnalogAI, LLC`;
+const COPYRIGHT = `© 2023-${new Date().getFullYear()} LobeHub, LLC`;
 
 const Page = memo(({ mobile }: { mobile?: boolean }) => {
   const enabledTelemetryChat = useServerConfigStore(serverConfigSelectors.enabledTelemetryChat);
@@ -35,7 +35,7 @@ const Page = memo(({ mobile }: { mobile?: boolean }) => {
         {enabledTelemetryChat && <Analytics />}
       </Flexbox>
       <Follow />
-      <div>Empowering your AI dreams by AnalogAI</div>
+      <div>Empowering your AI dreams by LobeHub</div>
       <div style={{ fontWeight: 400, opacity: 0.33 }}>{COPYRIGHT}</div>
     </Flexbox>
   );
