@@ -23,7 +23,7 @@ export const AUTHOR_LIST = {
   lobehub: {
     avatar: 'https://avatars.githubusercontent.com/u/131470832?v=4',
     desc: 'Official Account',
-    name: 'LobeHub',
+    name: 'AnalogChat',
     url: 'https://github.com/lobehub',
   },
 };
@@ -89,7 +89,7 @@ class Ld {
         'url': urlJoin(OFFICIAL_SITE, '/icon-512x512.png'),
         'width': 512,
       },
-      'name': 'LobeHub',
+      'name': 'AnalogChat',
       'sameAs': [
         X,
         'https://github.com/lobehub',
