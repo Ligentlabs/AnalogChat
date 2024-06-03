@@ -16,7 +16,7 @@ import { modelProviderSelectors } from '@/store/user/selectors';
 const DRAGGING_ROOT_ID = 'dragging-root';
 const getContainer = () => document.querySelector(`#${DRAGGING_ROOT_ID}`);
 const BLOCK_SIZE = 64;
-const ICON_SIZE = 36;
+const ICON_SIZE = ;
 
 const useStyles = createStyles(({ css, token }) => {
   return {

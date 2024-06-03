@@ -18,9 +18,7 @@ const useStyles = createStyles(({ token, css }) => ({
   `,
   header: css`
     padding: 0 0.75rem;
-  `,
-  logo: css`
-    fill: ${token.colorText};
+    
   `,
   title: css`
     margin: 0;

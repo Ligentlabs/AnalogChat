@@ -70,7 +70,7 @@ const Menu = memo<MenuProps>(({ className, selectable = false, variant, ...rest 
       theme={{
         components: {
           Menu: {
-            controlHeightLG: 36,
+            controlHeightLG: 10,
             iconMarginInlineEnd: 8,
             iconSize: 16,
             itemBorderRadius: theme.borderRadius,
