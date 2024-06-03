@@ -177,7 +177,7 @@ describe('toolSelectors', () => {
       expect(result).toEqual([
         {
           type: 'builtin',
-          author: 'AnalogChat',
+          author: 'LobeHub',
           identifier: 'builtin-1',
           meta: { title: 'Builtin 1', description: 'Builtin 1 description' },
         },
