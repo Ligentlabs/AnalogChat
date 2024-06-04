@@ -1,6 +1,6 @@
 'use client';
 
-import { Logo, Tag } from '@lobehub/ui';
+import { Tag } from '@lobehub/ui';
 import Link from 'next/link';
 import { memo } from 'react';
 import { Flexbox } from 'react-layout-kit';
@@ -21,9 +21,6 @@ const Page = memo(({ mobile }: { mobile?: boolean }) => {
 
   return (
     <Flexbox align={'center'} gap={12} paddingBlock={36} width={'100%'}>
-      <Link href={OFFICIAL_SITE} target={'_blank'}>
-        <Logo size={mobile ? 100 : 120} />
-      </Link>
       <h1 style={{ fontSize: mobile ? 32 : 36, fontWeight: 900, lineHeight: 1, marginBottom: 0 }}>
         LobeChat
       </h1>

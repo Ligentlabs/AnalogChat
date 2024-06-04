@@ -6,7 +6,8 @@ import { isMobileDevice } from '@/utils/responsive';
 
 import Actions from './features/Actions';
 import Hero from './features/Hero';
-import Logo from './features/Logo';
+// Remove the import statement for Logo
+// import Logo from './features/Logo';
 
 export const generateMetadata = async () => {
   const { t } = await translation('metadata');
@@ -29,7 +30,8 @@ const Page = async () => {
   return (
     <>
       <StructuredData ld={ld} />
-      <Logo mobile={mobile} />
+      {/* Remove the Logo component */}
+      {/* <Logo mobile={mobile} /> */}
       <Hero />
       <Actions mobile={mobile} />
     </>
