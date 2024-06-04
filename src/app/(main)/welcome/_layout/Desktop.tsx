@@ -1,4 +1,4 @@
-import { GridShowcase, Logo } from '@lobehub/ui';
+import { GridShowcase } from '@lobehub/ui'; // Removed the Logo import
 import { PropsWithChildren } from 'react';
 import { Flexbox } from 'react-layout-kit';
 
@@ -17,7 +17,7 @@ const DesktopLayout = ({ children }: PropsWithChildren) => {
         style={{ overflow: 'hidden', position: 'relative' }}
         width={'100%'}
       >
-        <Logo size={36} style={{ alignSelf: 'flex-start' }} type={'text'} />
+        {/* <Logo size={36} style={{ alignSelf: 'flex-start' }} type={'text'} /> */}
         <GridShowcase innerProps={{ gap: 24 }} style={{ maxWidth: 1024 }} width={'100%'}>
           {children}
         </GridShowcase>

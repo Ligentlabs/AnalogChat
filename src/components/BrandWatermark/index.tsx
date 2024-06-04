@@ -1,10 +1,11 @@
 'use client';
 
-import { Logo } from '@lobehub/ui';
 import { createStyles } from 'antd-style';
 import Link from 'next/link';
 import { memo } from 'react';
 import { Flexbox, FlexboxProps } from 'react-layout-kit';
+
+// import { Logo } from '@lobehub/ui';
 
 const useStyles = createStyles(({ token, css }) => ({
   logoLink: css`
@@ -30,7 +31,7 @@ const BrandWatermark = memo<Omit<FlexboxProps, 'children'>>(({ style, ...rest })
     >
       <span>Powered by</span>
       <Link className={styles.logoLink} href={'https://lobehub.com'} target={'_blank'}>
-        <Logo size={20} type={'text'} />
+        {/* <Logo size={20} type={'text'} /> */}
       </Link>
     </Flexbox>
   );
